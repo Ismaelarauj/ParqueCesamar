@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Parque Cesamar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+<!-- Cabeçalho -->
+<header class="d-flex justify-content-between align-items-center p-3 bg-success text-white">
+  <a href="index.html" class="btn btn-light">Voltar</a>
+  <h1>Contato</h1>
+</header>
+
+<!-- Seção de Contato -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Entre em Contato Conosco</h2>
+
+  <!-- Formulário de Contato -->
+  <form>
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome Completo</label>
+      <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+    </div>
+    <div class="mb-3">
+      <label for="telefone" class="form-label">Telefone</label>
+      <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensagem" class="form-label">Mensagem</label>
+      <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success w-100">Enviar Mensagem</button>
+  </form>
+</section>
+
+<!-- Informações de Contato -->
+<section class="container my-5">
+  <h3 class="text-center mb-4">Informações de Contato</h3>
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-telephone-fill" style="font-size: 50px;"></i>
+      <h5 class="my-2">Telefone</h5>
+      <p>(63) 1234-5678</p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-envelope-fill" style="font-size: 50px;"></i>
+      <h5 class="my-2">E-mail</h5>
+      <p>contato@parqueCesamar.com</p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <i class="bi bi-geo-alt-fill" style="font-size: 50px;"></i>
+      <h5 class="my-2">Endereço</h5>
+      <p>Avenida Parque, s/n - Palmas, TO</p>
+    </div>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2024 Parque Cesamar. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
