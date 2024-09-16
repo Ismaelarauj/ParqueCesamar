@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parque Cesamar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Cabeçalho -->
+<header class="d-flex justify-content-between align-items-center p-3 bg-success text-white">
+  <h1>Parque Cesamar</h1>
+  <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+    <i class="bi bi-list"></i> Menu
+  </button>
+</header>
+
+<!-- Menu Offcanvas -->
+<div class="offcanvas offcanvas-end rounded-4" id="offcanvasMenu" tabindex="-1">
+  <div class="offcanvas-header bg-success text-white">
+    <h5 class="offcanvas-title">Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group">
+      <li class="list-group-item border-0">
+        <a href="index.html" class="text-decoration-none text-success d-flex align-items-center">
+          <i class="bi bi-house me-2"></i> Início
+        </a>
+      </li>
+      <li class="list-group-item border-0">
+        <a href="trilhaecologica.html" class="text-decoration-none text-success d-flex align-items-center">
+          <i class="bi bi-tree me-2"></i> Trilha Ecológica
+        </a>
+      </li>
+      <li class="list-group-item border-0">
+        <a href="passareladecaminhada.html" class="text-decoration-none text-success d-flex align-items-center">
+          <i class="bi bi-arrows-fullscreen me-2"></i> Passarela de Caminhada
+        </a>
+      </li>
+      <li class="list-group-item border-0">
+        <a href="animaissilvestres.html" class="text-decoration-none text-success d-flex align-items-center">
+          <i class="bi bi-paw me-2"></i> Animais Silvestres
+        </a>
+      </li>
+      <li class="list-group-item border-0">
+        <a href="paginadecontato.html" class="text-decoration-none text-success d-flex align-items-center">
+          <i class="bi bi-envelope me-2"></i> Contato
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Banner Principal -->
+<section class="container text-center my-4">
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/48/6f/e5/entrada-do-parque.jpg?w=700&h=-1&s=1" alt="Banner do Parque Cesamar" class="img-fluid rounded-3 mb-3">
+  <h2>Bem-vindo ao Parque Cesamar</h2>
+  <p>Descubra a natureza e explore trilhas ecológicas, passarelas e nossa vida silvestre.</p>
+  <a href="#" class="btn btn-primary">Saiba Mais</a>
+</section>
+
+<!-- Seções com Ícones -->
+<section class="container my-5">
+  <div class="row text-center">
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#" class="d-block text-decoration-none text-center p-3 border rounded-3 shadow-sm">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/58/88/b7/20170219-104557-largejpg.jpg?w=1200&h=-1&s=1" alt="Trilha" class="img-fluid rounded-circle mb-3" style="width: 80px; height: 80px;">
+        <h4 class="mt-2">Trilha Ecológica</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#" class="d-block text-decoration-none text-center p-3 border rounded-3 shadow-sm">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/4b/9d/3f/pasarela.jpg?w=1200&h=-1&s=1" alt="Passarela" class="img-fluid rounded-circle mb-3" style="width: 80px; height: 80px;">
+        <h4 class="mt-2">Passarela de Caminhada</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#" class="d-block text-decoration-none text-center p-3 border rounded-3 shadow-sm">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/46/1f/45/photo0jpg.jpg?w=1200&h=-1&s=1" alt="Animais Silvestres" class="img-fluid rounded-circle mb-3" style="width: 80px; height: 80px;">
+        <h4 class="mt-2">Animais Silvestres</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+      <a href="#" class="d-block text-decoration-none text-center p-3 border rounded-3 shadow-sm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolNZzULAHQO3GfRogs_bn6elnKTJlU3xZvA&s" alt="Mapa do Parque" class="img-fluid rounded-circle mb-3" style="width: 80px; height: 80px;">
+        <h4 class="mt-2">Mapa do Parque</h4>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-4">
+  <p>&copy; 2024 Parque Cesamar. Todos os direitos reservados.</p>
+  <div>
+    <a href="#" class="text-white me-2">Política de Privacidade</a>
+    <a href="#" class="text-white">Termos de Uso</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+</body>
+</html>
